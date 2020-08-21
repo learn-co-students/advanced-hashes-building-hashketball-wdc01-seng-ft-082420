@@ -7,7 +7,7 @@ def game_hash
     team_name: "Brooklyn Nets",
     colors: ["Black", "White"],
     players: [
-      "Alan Anderson" => {
+      {player_name: "Alan Anderson",
         :number => 0,
         :shoe => 16,
         :points => 22,
@@ -52,9 +52,9 @@ def game_hash
         :steals => 4,
         :blocks => 11,
         :slam_dunks => 1}]
-  }  
-}
-{
+   #}  
+  },
+ {
   :away => {
     :team_name => "Charlotte Hornets",
     :colors => ["Turquoise", "Purple"],
